@@ -1,0 +1,24 @@
+{
+  "name": "Colorado Drilling Permits",
+  "description": "Add lat/lon to drilling permits table",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "https://cogcc.state.co.us/COGIS/DrillingPermitsList.cfm",
+    "https://cogcc.state.co.us/COGIS/LocationPermitsList.cfm"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Add lat/lon",
+    "default_icon": "oil_rig.png"
+  },
+  "icons": {
+    "48": "oil_rig_48.png",
+    "128": "oil_rig_128.png"
+  },
+  "manifest_version": 2
+}
